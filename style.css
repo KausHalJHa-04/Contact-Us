@@ -1,0 +1,66 @@
+body{
+    background-image:url(https://images8.alphacoders.com/134/1348853.png);
+    background-size: cover;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}body:hover{
+    /* background-image:url(https://cdn.lazyshop.com/files/d2c4f2c8-ada5-455a-86be-728796b838ee/product/8f551deb6a85a9006c88e8ec1212232b.jpeg) ; */
+    background-size: cover;
+}
+
+div{
+    border: solid red 5px;
+    padding: 10px 10px 10px 10px;
+    margin: 150px 20px 20px 20px;
+    height: 380px;
+    width: 430px;
+    text-align: center;
+}
+div:hover{
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_2t/14684.png);
+    background-size: cover;
+}
+h1{
+    height: 50px;
+    font-size:50px;
+    color: rgb(248, 11, 11);
+    line-height: 50px;
+    font-weight: 1000;
+}
+button{
+    height: 30px;
+    width: 230px;
+    background-color: transparent;
+    color: rgb(253, 21, 21);
+    transform: skew(10px);
+    transition: 1s;
+    margin-bottom: 20px;
+    font-weight: 100;
+    font-size: larger;
+}
+button:hover{
+    background-color: rgb(248, 18, 18);
+    border-radius: 50px;
+    color: black;
+
+
+}
+input{
+     font-size: larger; 
+    background-color: transparent;
+    color: white;
+    height: 25px;
+    width: 350px;
+    border-radius: 60px;
+}
+.name:hover{
+     background-color: rgb(28, 26, 26); 
+    /* filter: blur(1px); */
+}
+.email:hover{
+    background-color: rgb(28, 26, 26);
+}
+.message:hover{
+    background-color: rgb(28, 26, 26);
+}
